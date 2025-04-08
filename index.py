@@ -1,5 +1,5 @@
-from models import user
+from models import User
 
 
-obj = user("Rop", "0782273723", "Aron", "Mokaya")
+obj = User("Rop", "0782273723", "Aron", "Mokaya")
 print(obj.username)
